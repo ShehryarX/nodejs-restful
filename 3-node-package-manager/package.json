@@ -1,0 +1,21 @@
+{
+  "name": "3-node-package-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.3.11",// SemVer = SemanticVersion = Major.Minor.Patch
+    // ^ shows that as long as there are no *major* changes, then download it
+    // you can also type in 5.x. You can also do ~5.3 or 5.3.x to specify Major and Minor
+    // if you want to install an exact version, have no prefix at all
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  }
+}
